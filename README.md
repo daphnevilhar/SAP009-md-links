@@ -5,7 +5,7 @@
 * [1. Resumo do projeto](#1-resumo-do-projeto)
 * [2. Intalação](#2-instalação)
 * [3. CLI](#3-cli)
-* [4. Funcionalidade](#4-funcionalidade)
+* [4. Ferramentas utilizadas](#4-ferramentas-utilizadas)
 
 ***
 
@@ -27,7 +27,7 @@ Quando acrescentamos à listagem anterior *--validate* aparecerá o respectivo s
 
 `md-links caminho-do-arquivo --validate`
 
-## 4. Funcionalidade
+## 4. Ferramentas Utilizadas
 
 
 
