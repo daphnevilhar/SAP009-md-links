@@ -19,6 +19,13 @@ O projeto Markdown Links se resume em uma ferramenta de linha de comando `(CLI)`
 
 ## 3. CLI
 
+Quando apenas entregamos o caminho do arquivo (caminho abaixo), o comportamento esperado é que ele devolva o caminho do arquivo, o link, e o nome.
+
+`md-links caminho-do-arquivo`
+
+Quando acrescentamos à listagem anterior *--validate* aparecerá o respectivo status https de cada link, indicando quais estão válidos, quais estão quebrados e quais não existem.
+
+`md-links caminho-do-arquivo --validate`
 
 ## 4. Funcionalidade
 
