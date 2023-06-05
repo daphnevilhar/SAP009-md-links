@@ -29,5 +29,11 @@ Quando acrescentamos à listagem anterior *--validate* aparecerá o respectivo s
 
 ## 4. Ferramentas Utilizadas
 
+<div style="display: inline_block"><br>
+  <img align="center" height="30" width="30" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg" />
+  <img align="center" height="30" width="30" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/jest/jest-plain.svg" />
+  <img align="center" height="30" width="30" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/nodejs/nodejs-original.svg" />     
+</div>
+
 
 
