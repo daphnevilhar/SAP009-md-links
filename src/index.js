@@ -51,7 +51,6 @@ function mdLinks(path, options = { }) {
   return new Promise((resolve, reject) => {
     extractLinks(path)
       .then((file) => {
-        console.log(options)
         if (options.validate === false) {
           resolve(file);
         } else if (options.validate === true) {

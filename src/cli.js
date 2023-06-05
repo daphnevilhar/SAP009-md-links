@@ -1,5 +1,5 @@
 #!/usr/bin/env node
-const mdLinks = require('./index');
+const { mdLinks } = require('./index');
 
 const argument = process.argv[2];
 const options = {
@@ -19,11 +19,9 @@ function showValidation(result) {
 
 mdLinks(argument, options)
   .then((result) => {
-    if (options.validate === false && options.stats === false) {
+    if (options.validate === false) {
       showList(result);
-    } else if (options.validate === true && options.stats === false) {
+    } else if (options.validate === true) {
       showValidation(result);
-    } else if (options.validate === false && options.stats === true) {
-      showStats(result);
     }
   });
